@@ -102,7 +102,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: https://github.com/661111/github-page.git
+  branch: main
 
 # hexo-generator-feed
 ## Docs: https://github.com/hexojs/hexo-generator-feed
@@ -123,7 +125,7 @@ feed:
 # hexo-filter-nofollow
 ## Docs: https://github.com/hexojs/hexo-filter-nofollow
 nofollow:
-  enable: true
+  enable: false
   field: site
   exclude:
     - 'www.justlaws.cn'
